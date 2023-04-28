@@ -1,0 +1,318 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+
+.topbar {
+  background-color: black;
+  position: fixed;
+  z-index: 99;
+  display: block;
+  width: 100vw;
+  height: 6.5vh;
+}
+.topbar img {
+  width: 25px;
+  position: fixed;
+  right :12px;
+  top: 12px; 
+}
+#close {
+  width: 21px;
+  position: fixed;
+  right :13.5px;
+  top: 15px; 
+}
+
+.hide {
+  display: none;
+}
+.profilepic {
+  box-sizing: border-box;
+  width: 110px;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #25D366;
+  border-radius: 50%;
+  padding: 2px;
+  position :relative ;
+  top: 50%;
+}
+.img-div {
+ display: flex ;
+ flex-direction :column ;
+ align-items :center ;
+ position :relative ;
+ top:50px;
+}
+.Name{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  
+}
+.title {
+  text-decoration: none;
+  color: #34ecf8;
+  border-radius: 15px;
+  position: fixed;
+  left: 14px;
+  top: 7px;
+  font-family: 'Rochester';
+  font-size: 25px;
+}
+body {
+  background-color: black;
+  font-family: 'Barlow';
+  font-size: 8px;
+  margin: 0;
+}
+.home-body {
+  background-image: url("img/background3.png");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center ;
+  background-attachment: fixed ;
+  
+}
+
+ul {
+  display:none;
+  flex-direction: column;
+  list-style: none;
+  font-size: 20px;
+  background-color: black;
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  top: -2%;
+  left: 0px;
+  z-index:99;
+  padding-top : 10%;
+}
+li {
+  margin: 7px 0px;
+  width: 80%;
+  position: relative ;
+  left : -15%;
+}
+
+.navLinks {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  border-bottom: 5px solid white;
+  width : 100%
+}
+.navLinks:hover {
+  color: #34ecf8;
+  border-bottom: 5px solid #34ecf8;
+}
+.SocialLinks {
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  margin-top :100px;
+}
+
+.SocialLinks a {
+  text-decoration: none;
+  color :white ;
+  height:7vh;
+  line-height : 7vh;
+  font-size :20px;
+}
+
+.SocialLinks img {
+  width: 30px;
+  height :30px;
+  margin-left :10px;
+}
+.buttons{
+  display: flex;
+  margin: 20px;
+  box-sizing: border-box;
+  width: 90%;
+  justify-content: center;
+  align-items :center ;
+  border-radius: 50px;
+}
+
+#Facebook {
+  background-color: #1778F2;
+}
+#Instagram {
+ background: linear-gradient(to right, 
+            #833ab4 0%, 
+            #c13584 35%, 
+            #e1306c 50%, 
+            #fd1d1d 65%, 
+            #fcb045 100%); 
+}
+#Spotify {
+  background-color: #1db954;
+}
+#Twitter {
+  background-color: #1DA1F2;
+}
+#Github {
+  background-color: #333;
+}
+#Email {
+  background-color: #FFBF00;
+}
+#Discord {
+  background-color: #5865f2;
+  margin-bottom: 200px;
+}
+.maindiv {
+  display: flex;
+  position: relative;
+  top : 400px;
+}
+
+#text1-1 {
+  font-size: 50px;
+  padding-bottom: 26px;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  
+}
+.hello {
+  height :80vh ;
+  margin :0px 40px;
+  display :flex ;
+  flex-direction :column ;
+}
+.hello h2 {
+  display:inline-block ;
+  font-size: 14px ;
+  color: white;
+  margin :200px 0px 40px 0px;
+  
+}
+.hello h2 span {
+  font-size:25px;
+  color: #34ecf8;
+  display: inline-block;
+  margin-top: 5px;
+}
+.home-button {
+  text-decoration: none;
+  color : #34ecf8; 
+  border : 1.5px solid #34ecf8;
+  display: block;
+  width : 40vw;
+  height : 6vh;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  line-height :6vh;
+  
+}
+.home-button:hover {
+  color : black;
+  background-color: #34ecf8;
+}
+
+
+.videos-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 350px;
+}
+.vid-title {
+  font-size:50px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+video {
+  width : 95%;
+  display: block;
+  margin: 100px auto ;
+ 
+}
+.video-div {
+  margin: 100px auto;
+  border: 5px solid #34ecf8;
+  border-radius: 35px;
+}
+.adari {
+  font-size: 60px;
+  color: white;
+  position: relative;
+  top : 300px;
+  left: 25%;
+}
+.edu-links {
+  margin-bottom: 600px;
+}
+.links {
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  color: #34ecf8;
+  border: 2.5px solid #34ecf8;
+  border-radius: 15px;
+  width: 80%;
+  height :7vh;
+  line-height :7vh;
+  margin : 15px auto;
+  text-align: center;
+}
+.links:hover {
+  color: black;
+  background : #34ecf8;
+}
+.page-label-container {
+  display: flex;
+  justify-content: center;
+  height : 30vh;
+  align-items :center ;
+}
+.page-label {
+  font-size: 25px;
+  color: white;
+  text-align:center ;
+ 
+}
+.screen-message {
+  display :none ;
+  
+  
+}
+.screen-message label {
+  font-size : 30px;
+  text-align :center;
+  color : white ;
+  margin :auto auto ;
+}
+@media (min-width :400px) {
+  .content {
+    display :none;
+  }
+  .home-body {
+    background: black;
+  }
+  .screen-message {
+    display : flex ;
+    justify-content :center
+    align-items : center;
+    width : 100vw;
+    height :90vh ;
+  }
+}
