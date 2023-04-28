@@ -1,17 +1,17 @@
-@import url('https://fonts.cdnfonts.com/css/bebas-neue');
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@font-face {
+  font-family : "Bold";
+  src: url('fonts/Bold.otf');
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
-
-
+@font-face {
+  font-family : "Nexa";
+  src: url('fonts/Nexa.ttf');
+}
+@font-face {
+  font-family : "Glitch";
+  src : url('fonts/Glitch.otf');
+}
 .topbar {
   background-color: black;
   position: fixed;
@@ -65,14 +65,16 @@
   color: #34ecf8;
   border-radius: 15px;
   position: fixed;
-  left: 14px;
-  top: 7px;
-  font-family: 'Rochester';
-  font-size: 25px;
+  left: 12px;
+  top: 2px;
+  font-family: 'Glitch';
+  font-size: 15px;
+  letter-spacing: 1px;
 }
+
 body {
   background-color: black;
-  font-family: 'Barlow';
+  font-family: 'Nexa';
   font-size: 8px;
   margin: 0;
 }
@@ -130,7 +132,7 @@ li {
   color :white ;
   height:7vh;
   line-height : 7vh;
-  font-size :20px;
+  font-size :17px;
 }
 
 .SocialLinks img {
@@ -150,6 +152,11 @@ li {
 
 #Facebook {
   background-color: #1778F2;
+  
+}
+#Facebook img {
+  border : 1px solid white ;
+  border-radius :50%; 
 }
 #Instagram {
  background: linear-gradient(to right, 
@@ -195,19 +202,21 @@ li {
   margin :0px 40px;
   display :flex ;
   flex-direction :column ;
+  font-family : 'Bold';
 }
 .hello h2 {
   display:inline-block ;
-  font-size: 14px ;
+  font-size: 10px ;
   color: white;
   margin :200px 0px 40px 0px;
-  
+  letter-spacing: 0.5px;
 }
 .hello h2 span {
-  font-size:25px;
+  font-size:30px;
   color: #34ecf8;
   display: inline-block;
   margin-top: 5px;
+  letter-spacing: 1.5px;
 }
 .home-button {
   text-decoration: none;
@@ -216,9 +225,9 @@ li {
   display: block;
   width : 40vw;
   height : 6vh;
-  border-radius: 15px;
+  border-radius: 7px;
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   line-height :6vh;
   
 }
@@ -264,10 +273,10 @@ video {
 .links {
   display: block;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #34ecf8;
   border: 2.5px solid #34ecf8;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 80%;
   height :7vh;
   line-height :7vh;
@@ -285,7 +294,7 @@ video {
   align-items :center ;
 }
 .page-label {
-  font-size: 25px;
+  font-size: 18px;
   color: white;
   text-align:center ;
  
