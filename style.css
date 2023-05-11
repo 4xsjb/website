@@ -231,9 +231,10 @@ li {
   height : 6vh;
   border-radius: 7px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   line-height :6vh;
-  
+  font-family : 'Arial';
+  font-weight :800;
 }
 .home-button:hover {
   color : black;
