@@ -88,7 +88,7 @@ body {
 }
 
 ul {
-  display:none;
+  display:flex;
   flex-direction: column;
   list-style: none;
   font-size: 20px;
@@ -96,10 +96,12 @@ ul {
   width: 60%;
   height: 100%;
   position: fixed;
+  transform : translateX(-100%);
   top: -2%;
   left: 0px;
   z-index:99;
   padding-top : 10%;
+  transition : 0.2s ease-in-out;
 }
 li {
   margin: 7px 0px;
@@ -114,7 +116,9 @@ li {
   color: white;
   padding: 15px;
   border-bottom: 5px solid white;
-  width : 100%
+  width : 100%;
+  font-family : 'Arial';
+  font-weight : 700;
 }
 .navLinks:hover {
   color: #34ecf8;
