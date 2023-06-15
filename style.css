@@ -13,8 +13,9 @@
   src : url('fonts/Glitch.otf');
 }
 .topbar {
-  background-color: black;
+  background : black;
   position: fixed;
+  top: 0px ;
   z-index: 99;
   display: block;
   width: 100vw;
@@ -36,24 +37,7 @@
 .hide {
   display: none;
 }
-.profilepic {
-  box-sizing: border-box;
-  width: 110px;
-  display: block;
-  margin: 0 auto;
-  border: 3px solid #25D366;
-  border-radius: 50%;
-  padding: 2px;
-  position :relative ;
-  top: 50%;
-}
-.img-div {
- display: flex ;
- flex-direction :column ;
- align-items :center ;
- position :relative ;
- top:50px;
-}
+
 .Name{
   text-align: center;
   color: white;
@@ -124,11 +108,21 @@ li {
   color: #34ecf8;
   border-bottom: 5px solid #34ecf8;
 }
+.contact-hint {
+  color : white ;
+  font-size: 13px ;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+.contact-hint span {
+  color: #34ecf8 ;
+}
 .SocialLinks {
   display: flex ;
   flex-direction: column;
   align-items: center;
-  margin-top :100px;
+  margin-top :250px;
 }
 
 .SocialLinks a {
@@ -151,7 +145,7 @@ li {
   width: 90%;
   justify-content: center;
   align-items :center ;
-  border-radius: 50px;
+  border-radius: 12px;
 }
 
 #Facebook {
