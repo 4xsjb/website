@@ -46,7 +46,7 @@
 }
 .title {
   text-decoration: none;
-  color: #34ecf8;
+  color: #EAFF01 ;
   border-radius: 15px;
   position: fixed;
   left: 12px;
@@ -105,8 +105,8 @@ li {
   font-weight : 700;
 }
 .navLinks:hover {
-  color: #34ecf8;
-  border-bottom: 5px solid #34ecf8;
+  color: #EAFF01 ;
+  border-bottom: 5px solid #EAFF01 ;
 }
 .contact-hint {
   color : white ;
@@ -164,22 +164,11 @@ li {
             #fd1d1d 65%, 
             #fcb045 100%); 
 }
-#Spotify {
-  background-color: #1db954;
-}
-#Twitter {
-  background-color: #1DA1F2;
-}
-#Github {
-  background-color: #333;
-}
+
 #Email {
   background-color: #FFBF00;
 }
-#Discord {
-  background-color: #5865f2;
-  margin-bottom: 200px;
-}
+
 .maindiv {
   display: flex;
   position: relative;
@@ -211,15 +200,15 @@ li {
 }
 .hello h2 span {
   font-size:30px;
-  color: #34ecf8;
+  color: #EAFF01 ;
   display: inline-block;
   margin-top: 5px;
   letter-spacing: 1.5px;
 }
 .home-button {
   text-decoration: none;
-  color : #34ecf8; 
-  border : 1.5px solid #34ecf8;
+  color : white ; 
+  border : 1.5px solid white ;
   display: block;
   width : 40vw;
   height : 6vh;
@@ -231,33 +220,9 @@ li {
   font-weight :800;
 }
 .home-button:hover {
-  color : black;
-  background-color: #34ecf8;
-}
-
-
-.videos-div {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 350px;
-}
-.vid-title {
-  font-size:50px;
-  color: white;
-  text-align: center;
-  padding-top: 40px;
-}
-video {
-  width : 95%;
-  display: block;
-  margin: 100px auto ;
- 
-}
-.video-div {
-  margin: 100px auto;
-  border: 5px solid #34ecf8;
-  border-radius: 35px;
+  color : #EAFF01 ;
+  background-color: black ;
+  border: 1.5px solid #EAFF01 ;
 }
 .adari {
   font-size: 60px;
@@ -266,15 +231,12 @@ video {
   top : 300px;
   left: 25%;
 }
-.edu-links {
-  margin-bottom: 600px;
-}
 .links {
   display: block;
   text-decoration: none;
   font-size: 18px;
-  color: #34ecf8;
-  border: 2.5px solid #34ecf8;
+  color: #EAFF01 ;
+  border: 2.5px solid #EAFF01 ;
   border-radius: 10px;
   width: 80%;
   height :7vh;
@@ -284,7 +246,7 @@ video {
 }
 .links:hover {
   color: black;
-  background : #34ecf8;
+  background : #EAFF01 ;
 }
 .page-label-container {
   display: flex;
